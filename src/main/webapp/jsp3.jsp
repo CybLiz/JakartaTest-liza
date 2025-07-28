@@ -5,6 +5,6 @@
     <title>$Title$</title>
 </head>
 <body>
-<a href="/test3">Hello Servlet</a>
+<a href="/test3">Je test ma Servlet 3</a>
 </body>
 </html>
