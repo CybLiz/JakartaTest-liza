@@ -17,14 +17,14 @@ public class servlet3 extends HttpServlet {
         System.out.println("Servlet3 doGet");
 
         resp.setContentType("text/html");
-        PrintWriter out = resp.getWriter();
+//        PrintWriter out = resp.getWriter();
 
-        out.println("<html>");
-        out.println("<head><title>Test Servlet 3</title></head>");
-        out.println("<body>");
-        out.println("<h1>Je teste MonServelet  3 !</h1>");
-        out.println("</body>");
-        out.println("</html>");
+//        out.println("<html>");
+//        out.println("<head><title>Test Servlet 3</title></head>");
+//        out.println("<body>");
+//        out.println("<h1>Je teste MonServelet  3 !</h1>");
+//        out.println("</body>");
+//        out.println("</html>");
     }
 }
 
