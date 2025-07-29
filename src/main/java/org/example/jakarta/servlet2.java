@@ -16,6 +16,7 @@ public class servlet2 extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         System.out.println("Servlet2 doGet");
         resp.setContentType("text/plain");
+        PrintWriter out = resp.getWriter();
         resp.getWriter().println("<html>");
         resp.getWriter().println("  <head><title>Test servlet 2</title></head>");
         resp.getWriter().println("  <body>");

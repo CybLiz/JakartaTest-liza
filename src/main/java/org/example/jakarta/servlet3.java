@@ -16,7 +16,7 @@ public class servlet3 extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         System.out.println("Servlet3 doGet");
 
-        getServletContext().getRequestDispatcher("/jsp3.jsp").forward(req,resp);
+        getServletContext().getRequestDispatcher("/Views/jspC.jsp").forward(req,resp);
 
     }
 }
